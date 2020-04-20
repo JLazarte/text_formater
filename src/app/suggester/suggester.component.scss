@@ -1,0 +1,31 @@
+:host {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+h2 {
+  margin: 0;
+}
+
+.results {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+    height: 100%;
+    flex-grow: 2;
+    background-color: #fff;
+    border: 1px solid #e4dede;
+    padding: 5px;
+    font-size: 18px;
+
+    &:hover {
+      background-color: #AAA;
+    }
+}

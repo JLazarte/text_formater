@@ -1,0 +1,12 @@
+<textarea
+  [(ngModel)]="myText"
+  class="file"
+  (keyup)="onChange()"
+  (change)="onChange()"
+  (click)="onClick($event)">
+</textarea>
+<div
+  [innerHTML]="myText"
+  class="file-view">
+</div>
+

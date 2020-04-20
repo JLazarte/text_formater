@@ -1,0 +1,27 @@
+:host {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.file {
+  width: 600px;
+  height: 100%;
+  flex-grow: 0.5;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.file-view {
+  width: 600px;
+  height: 100%;
+  flex-grow: 0.5;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+  font-size: 25px;
+}

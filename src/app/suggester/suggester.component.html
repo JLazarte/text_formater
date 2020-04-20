@@ -1,0 +1,10 @@
+<div>
+  <h2>Searching synonyms: <span *ngIf='msgStatus != "Select"'>{{mySuggestion.word}}</span></h2>
+  <span *ngIf='msgStatus == "Select"'>Please select a word from the text</span>
+  <span *ngIf='msgStatus == "Change"'>Please select some other word from the text</span>
+  <div *ngIf='msgStatus == "Results"' class="results">
+    <li *ngFor='let suggestion of mySuggestion.options; index as idx' (click)='onSelection(suggestion)'>
+      {{suggestion}}
+    </li>
+  </div>
+</div>
